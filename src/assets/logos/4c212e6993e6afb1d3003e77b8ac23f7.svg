@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="64.000000pt" height="64.000000pt" viewBox="0 0 64.000000 64.000000"
+ preserveAspectRatio="xMidYMid meet">
+
+<g transform="translate(0.000000,64.000000) scale(0.100000,-0.100000)"
+   fill="#000000" stroke="none">
+
+  <!-- 1. Main circle, black background -->
+  <path d="M206 616 c-85 -36 -126 -73 -166 -151 -31 -60 -35 -77 -35 -144 0
+-130 66 -234 185 -290 74 -35 182 -36 255 -3 65 30 138 102 167 166 33 75 32
+182 -3 256 -74 156 -252 229 -403 166z" />
+
+  <!-- 2. Hollowed out area (subpath 1) filled with white -->
+  <!-- Original relative starting point m173, -153 converted to absolute coordinates M379,463 -->
+  <path d="M379 463 c9 -17 11 -17 25 2 15 20 15 20 36 -2 11 -13 27 -23 35 -23
+  8 0 22 -11 31 -25 14 -21 15 -31 5 -51 -9 -21 -8 -30 9 -51 14 -18 18 -33 14 -52
+  -10 -38 -22 -50 -59 -57 -19 -3 -36 -12 -39 -20 -7 -19 -36 -18 -36 1 0 19 -16 19
+  -24 0 -3 -8 -12 -15 -21 -15 -8 0 -15 7 -15 15 0 9 -9 15 -25 15 -16 0 -25 6 -25
+  15 0 8 7 15 15 15 12 0 15 17 15 95 0 78 -3 95 -15 95 -8 0 -15 7 -15 15 0 9 9
+  15 24 15 13 0 26 7 30 15 7 20 23 19 35 -2z" fill="white" />
+
+  <!-- 3. Hollowed out area (subpath 2) filled with white -->
+  <!-- Original relative starting point m-171, -85 converted to absolute coordinates M208,378 -->
+  <path d="M208 378 c3 -24 8 -28 33 -28 24 0 29 -4 29 -24 0 -19 -6 -25 -27 -28
+  -22 -2 -29 -9 -31 -30 -3 -22 -9 -28 -27 -28 -18 0 -24 6 -27 28 -2 21 -9 28 -30
+  30 -22 3 -28 9 -28 28 0 20 5 24 30 24 27 0 30 3 30 31 0 26 3 30 23 27 16 -2
+  23 -11 25 -30z" fill="white" />
+
+  <!-- 4. Detail (pupils, etc.), black -->
+  <path d="M380 379 c0 -28 2 -30 32 -27 57 5 48 57 -9 58 -19 0 -23 -5 -23 -31z"/>
+  <path d="M380 275 c0 -31 3 -35 26 -35 33 0 64 17 64 35 0 18 -31 35 -64 35
+-23 0 -26 -4 -26 -35z"/>
+  <path d="M160 325 c0 -20 5 -25 25 -25 20 0 25 5 25 25 0 20 -5 25 -25 25 -20
+0 -25 -5 -25 -25z"/>
+
+</g>
+</svg>

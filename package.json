@@ -1,0 +1,45 @@
+{
+  "name": "surdream_web",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "@ledgerhq/hw-app-eth": "^6.42.2",
+    "@ledgerhq/hw-transport-webhid": "^6.29.2",
+    "@metamask/detect-provider": "^2.0.0",
+    "@reown/appkit": "^1.8.19",
+    "@reown/appkit-adapter-wagmi": "^1.8.19",
+    "@tailwindcss/postcss": "^4.1.17",
+    "@tanstack/vue-query": "^5.100.9",
+    "@wagmi/vue": "^0.5.11",
+    "@walletconnect/ethereum-provider": "^2.19.2",
+    "buffer": "^6.0.3",
+    "pinia": "^3.0.4",
+    "process": "^0.11.10",
+    "viem": "^2.48.8",
+    "vite-plugin-node-polyfills": "^0.25.0",
+    "vue": "^3.5.25",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.2",
+    "autoprefixer": "^10.4.22",
+    "dotenv": "^17.4.2",
+    "ethers": "^6.16.0",
+    "patch-package": "^8.0.1",
+    "postcss": "^8.5.6",
+    "postcss-pxtorem": "^6.1.0",
+    "tailwindcss": "3",
+    "vite": "^7.2.4",
+    "vite-plugin-vue-devtools": "^8.0.5"
+  }
+}
